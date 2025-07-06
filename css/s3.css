@@ -1,0 +1,34 @@
+body{
+    background-image: linear-gradient(#123, wheat, rgb(76, 16, 16) );
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+}
+h1{
+    width: 100%;
+    font-size: 100px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+button {
+  padding: 15px 30px;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: #123;
+  color: wheat;
+  border: 2px solid white;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 40px;
+}
+
+button:hover {
+  background-color: black;
+  color: rgb(198, 165, 128);
+}
